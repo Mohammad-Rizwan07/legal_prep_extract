@@ -20,8 +20,9 @@ Optimized to run on systems with **low RAM (4GB)**, this tool uses **keyword-bas
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <(https://github.com/Mohammad-Rizwan07/legal_prep_extract)>
+cd <legal_prep_extract>
+```
 
 
 2. **Create and activate a virtual environment**
@@ -32,7 +33,7 @@ python -m venv venv
 # macOS/Linux
 source venv/bin/activate
 
-
+```
 
 3. **Install dependencies**
 
@@ -75,4 +76,5 @@ legal_prep_extract/
 ├─ streamlit_app.py         # Main Streamlit application
 ├─ requirements.txt         # Python dependencies
 └─ README.md                # Project documentation
+
 
