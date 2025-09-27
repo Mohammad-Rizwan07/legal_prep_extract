@@ -70,8 +70,9 @@ numpy
 Note: The app automatically downloads NLTK data (punkt) on first run.
 
 📂 Project Structure
-legal_prep/
+legal_prep_extract/
 │
 ├─ streamlit_app.py         # Main Streamlit application
 ├─ requirements.txt         # Python dependencies
 └─ README.md                # Project documentation
+
