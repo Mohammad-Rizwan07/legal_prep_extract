@@ -26,25 +26,29 @@ cd <legal_prep_extract>
 
 
 2. **Create and activate a virtual environment**
-'''bash
+```bash
 python -m venv venv
+```
 # Windows
+```bash
 .\venv\Scripts\activate
+```
 # macOS/Linux
+```bash
 source venv/bin/activate
-
 ```
 
 3. **Install dependencies**
-
+```bash
 pip install -r requirements.txt
+```
 
-🚀 Usage
+## 🚀 Usage
 
-Run the Streamlit app:
-
+**Run the Streamlit app** :
+```bash
 streamlit run streamlit_app.py
-
+```
 
 Upload a PDF containing legal case details.
 
@@ -56,8 +60,8 @@ View top arguments for and against, along with statistics.
 
 Download a text report of the analysis.
 
-🧩 Dependencies
-
+## 🧩 Dependencies
+```bash
 streamlit
 
 pdfplumber
@@ -67,14 +71,17 @@ nltk
 scikit-learn
 
 numpy
+```
 
 Note: The app automatically downloads NLTK data (punkt) on first run.
 
-📂 Project Structure
+## 📂 Project Structure
+```bash
 legal_prep_extract/
 │
 ├─ streamlit_app.py         # Main Streamlit application
 ├─ requirements.txt         # Python dependencies
 └─ README.md                # Project documentation
 
+```
 
